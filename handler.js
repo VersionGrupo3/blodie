@@ -1542,7 +1542,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*[ 🇪🇬 ] Este Comando Fie Desactivado Por El Mas Guapo*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '🇪🇬 𝐁𝐥𝐨𝐝𝐢𝐞 𝐁𝐨𝐭 🇪🇬', body: '🇪🇬 𝐁𝐥𝐨𝐝𝐢𝐞 𝐁𝐨𝐭 🇪🇬', thumbnail: imagen1, sourceUrl: 'https://instagram.com/fantasmin.ventas.bot'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '🇪🇬 𝐁𝐥𝐨𝐝𝐢𝐞 𝐁𝐨𝐭 🇪🇬', body: '🇪🇬 𝐁𝐥𝐨𝐝𝐢𝐞 𝐁𝐨𝐭 🇪🇬', thumbnail: imagen1, sourceUrl: 'https://instagram.com/optimus.ventas.bot'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
