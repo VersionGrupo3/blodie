@@ -23,25 +23,21 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `🇪🇬 𝗕𝗟𝗢𝗗𝗜𝗘 𝗕𝗢𝗧 🇪🇬
 
-  *Ey , Hola AndreLovers ${taguser} Te Presento Este Bot 🇪🇬*
+  *Ey , Hola BlodieLovers ${taguser} Te Presento Este Bot 🇪🇬*
 
 ┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
  ►🇪🇬 Creador : Blodie
  ►🇪🇬 Numero ; +54 9 11 6041-3309
- ►🇪🇬 Adquirir Bot : +51 937 305 486
- ►🇪🇬 Ig : https://www.instagram.com/fantasmin.ventas.bot/
+ ►🇪🇬 Adquirir Bot : +51 902 360 712
+ ►🇪🇬 Ig : ${md}
  ►🇪🇬 BlodieCoins ${money}
  ${readMore}
 ┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
-*« COMPRAR BOT Y VENTA »*
+*« COMPRAR BOT »*
 
 ┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
- ►🇪🇬 _${usedPrefix}Yape *< Comprar Bot >*_
- ►🇪🇬 _${usedPrefix}Vendedores *< Comprar Bot >*_
- ►🇪🇬 _${usedPrefix}PrecioFull *< Comprar Bot Full >*_
- ►🇪🇬 _${usedPrefix}Pago2 *< Comprar Con Diamantes >*_
- ►🇪🇬 _${usedPrefix}Pago3 *< Venta De Diamantes >*_
+ ►🇪🇬 _${usedPrefix}ComprarBot *< Comprar Bot >*_
 ┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
  *« MENUS ADICIONALES »*
