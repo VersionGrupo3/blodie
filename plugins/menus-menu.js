@@ -23,14 +23,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `🇪🇬 𝗕𝗟𝗢𝗗𝗜𝗘 𝗕𝗢𝗧 🇪🇬
 
-  *Ey , Hola BlodieLovers ${taguser} Te Presento Este Bot 🇪🇬*
-
 ┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
  ►🇪🇬 Creador : Blodie
  ►🇪🇬 Numero ; +54 9 11 6041-3309
  ►🇪🇬 Adquirir Bot : +51 902 360 712
  ►🇪🇬 Ig : ${md}
- ►🇪🇬 BlodieCoins ${money}
  ${readMore}
 ┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
@@ -56,14 +53,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
  ►🇪🇬 _${usedPrefix}grupos_
  ►🇪🇬 _${usedPrefix}estado_
- ►🇪🇬 _${usedPrefix}infobot_
- ►🇪🇬 _${usedPrefix}AlacranSpeed_
  ►🇪🇬 _${usedPrefix}donar_
  ►🇪🇬 _${usedPrefix}owner_
  ►🇪🇬 _${usedPrefix}reporte *<txt>*_
  ►🇪🇬 _${usedPrefix}join *<wagp_url>*_
  ►🇪🇬 _${usedPrefix}fixmsgespera_
- ►🇪🇬 _${usedPrefix}new_
  ►🇪🇬 _${usedPrefix}enable restrict_
  ►🇪🇬 _${usedPrefix}disable restrict_
  ►🇪🇬 _${usedPrefix}enable autoread_
