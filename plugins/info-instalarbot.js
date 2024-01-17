@@ -1,31 +1,33 @@
-const handler = async (m, {conn, usedPrefix}) => {
-  const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
-  const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️`.trim();
-  const buttonMessage= {
-    'document': {url: `https://www.instagram.com/spider.ventas.bot/`},
-    'mimetype': `application/${document}`,
-    'fileName': `🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️`,
-    'fileLength': 99999999999999,
-    'pageCount': 200,
-    'contextInfo': {
-      'forwardingScore': 200,
-      'isForwarded': true,
-      'externalAdReply': {
-        'mediaUrl': 'https://www.instagram.com/spider.ventas.bot/',
-        'mediaType': 2,
-        'previewType': 'pdf',
-        'title': '🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️',
-        'body': wm,
-        'thumbnail': imagen1,
-        'sourceUrl': 'https://www.instagram.com/spider.ventas.bot/'}},
-    'caption': text,
-    'footer': wm,
-    // 'buttons':[
-    // {buttonId: `${usedPrefix}menu`, buttonText: {displayText: '𝙼𝙴𝙽𝚄'}, type: 1},
-    // {buttonId: `${usedPrefix}donar`, buttonText: {displayText: '𝙳𝙾𝙽𝙰𝚁'}, type: 1}],
-    'headerType': 6};
-  conn.sendMessage(m.chat, buttonMessage, {quoted: m});
+const handler = async (m, {conn}) => {
+  m.reply(global.ComprarBot);
 };
-handler.command = ['instalarbot', 'instalarbot'];
+handler.command = /^(ComprarBot)$/i;
 export default handler;
+global.ComprarBot = `
+🇪🇬 𝗕𝗟𝗢𝗗𝗜𝗘 𝗕𝗢𝗧 🇪🇬
+
+*COMPRAR BOT OPTIMUS*
+
+*━━━━━━━━━━━━━⬣*
+*✅ METODO DIAMANTES*
+*⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
+*200 DIAMANTES 1 GRUPO 💎*
+*700 DIAMANTES PERMANENTE 💎*
+*━━━━━━━━━━━━━⬣*
+
+*━━━━━━━━━━━━━⬣*
+*✅ METODO PERU BOT PROPIO*
+*⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
+*YAPE 1 :* 926 933 818 , Luis Alberto , 25 SOLES PROPIO
+*YAPE 2 :* 976 336 831 , Mary Luz , 25 SOLES PROPIO
+*━━━━━━━━━━━━━⬣*
+
+*━━━━━━━━━━━━━⬣*
+*✅ METODO PERU BOT GRUPO*
+*⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
+*YAPE 1 :* 926 933 818 , Luis Alberto , 5 SOLES 1 GRUPO
+*YAPE 2 :* 976 336 831 , Mary Luz , 5 SOLES 1 GRUPO
+*━━━━━━━━━━━━━⬣*
+
+*NOTA :* *RECUERD MANDAR COMPROBANTE AL wa.me/51902360712 YA QUE ESTE USUARIO ES UN CLIENTE*
+`;
