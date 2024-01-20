@@ -5,7 +5,7 @@ cd && termux-setup-storage && pkg update && pkg upgrade -y && pkg install -y git
 ```
 
 ```bash
-git clone https://github.com/YHAIR1706/Full-Bot1.git && cd Full-Bot1
+git clone https://github.com/VersionGrupo3/BotFix.git && cd BotFix
 ```
 
 ```bash
