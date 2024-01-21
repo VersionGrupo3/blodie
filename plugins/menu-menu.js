@@ -88,7 +88,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 *╭━〔 OPTIMUS BOT 〕━⬣*
  ┃👤 Creador : MK
- ┃📱 Numero ; +54 9 11 5963 4868
+ ┃📱 Numero ; +54 9 11 6041 3309
  ┃🤑 Adquirir : +51 926 933 818
  ┃👻 Ig : ${md}
  ┃💻 Grupo : ${nna}
