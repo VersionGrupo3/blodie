@@ -84,12 +84,12 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 
 let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.genero == 'Ocultado 🕶️' ? `🕶️` : user.genero == 'Mujer 🚺' ? `🚺` : user.genero == 'Hombre 🚹' ? `🚹` : '👤'} ${user.registered === true ? user.name : username}*${(conn.user.jid == global.conn.user.jid ? '' : `\n*SOY SUB BOT DE: https://wa.me/${global.conn.user.jid.split`@`[0]}*`) || ''}
 
-〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕
+〔 𝐁𝐥𝐨𝐝𝐢𝐞 𝐁𝐨𝐭 〕
 
 *╭━〔 OPTIMUS BOT 〕━⬣*
- ┃👤 Creador : Cristhofer
- ┃📱 Numero ; +51 902 360 712
- ┃🤑 Adquirir : +51 902 360 712
+ ┃👤 Creador : MK
+ ┃📱 Numero ; +54 9 11 5963 4868
+ ┃🤑 Adquirir : +51 926 933 818
  ┃👻 Ig : ${md}
  ┃💻 Grupo : ${nna}
 *╰━━━━━━━━━━━━⬣*
@@ -97,7 +97,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 *╭━〔 INFORMACIÓN DE OWNER 〕⬣*
 ┃⊜ Experiencia ➟ ${exp} ⚡
 ┃⊜ Diamantes ➟ ${limit} 💎
-┃⊜ OptimusCoins ➟ ${money} 🤖
+┃⊜ BlodieCoins ➟ ${money} 🤖
 ┃⊜ Tokens ➟ ${joincount} 🪙
 *╰━━━━━━━━━━━━⬣*
 
