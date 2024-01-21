@@ -7,5 +7,5 @@ export default handler;
 global.ComprarBot = ` 〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕
 
 HABLAR AL :
-wa.me/51902360712
+wa.me/51926933818
 `;
