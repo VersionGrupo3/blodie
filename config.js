@@ -137,7 +137,7 @@ global.ths = "https://www.instagram.com/optimus.ventas.bot"
 global.paypal = 'https://www.instagram.com/optimus.ventas.bot'
 global.asistencia = 'https://wa.me/51926933818' //Contacto
 
-global.nna = 'https://chat.whatsapp.com/FlSQ9PkM8lB5YPRv73ZbQ3' // CANAL UPDATE
+global.nna = 'https://chat.whatsapp.com/GORUKC3sPk243HIE0FzFa' // CANAL UPDATE
 global.nn2 = 'https://www.instagram.com/optimus.ventas.bot' // CANAL GataBot
 global.nna2 = 'https://www.instagram.com/optimus.ventas.bot' // Help
 global.nn = 'https://chat.whatsapp.com/FlSQ9PkM8lB5YPRv73ZbQ3' // Grupo 1
