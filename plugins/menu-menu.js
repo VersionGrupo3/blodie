@@ -86,7 +86,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 〔 𝐁𝐥𝐨𝐝𝐢𝐞 𝐁𝐨𝐭 〕
 
-*╭━〔 OPTIMUS BOT 〕━⬣*
+*╭━〔 𝐁𝐥𝐨𝐝𝐢𝐞 𝐁𝐨𝐭 〕━⬣*
  ┃👤 Creador : MK
  ┃📱 Numero ; +54 9 11 6041 3309
  ┃🤑 Adquirir : +51 926 933 818
